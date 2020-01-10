@@ -18,8 +18,6 @@ We will use this project to learn the key steps in wrting code to run on the @bo
 
 First, let's get your name to display on the screen.
 
-## Button press 
-
 From the ``||input:Input||`` Toolbox drawer, drag an ``||input:on button A pressed||`` block onto the Workspace.
 
 ```blocks
@@ -28,7 +26,7 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-## Show a string
+## Step 2: Show a string @fullscreen
 
 From the ``||basic:Basic||`` Toolbox drawer drag a ``||basic:show string||`` block into the ``||input:on button A pressed||`` block.
 
@@ -38,7 +36,7 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-## Show my name
+## Step 3: Show my name @fullscreen
 
 In the ``||basic:show string||`` block, type your name.
 
@@ -48,7 +46,7 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-# Test the badge
+## Step 4: Test the badge @fullscreen
 
 Go to the simulator and test your name badge by pressing button **A**.
 
@@ -58,14 +56,29 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-# Download
+## Step 5: Download @fullscreen
 
 Download the program to your @boardname@:
 
 1. Make sure your @boardname@ is plugged into the computer.
-![alt text](https://github.com/belmont-admin/C001-Interactive-Badge/raw/master/images/1-connect.jpg "Logo Title Text 1")
+![alt text](https://github.com/belmont-admin/C001-Interactive-Badge/raw/master/images/1-connect.jpg "Connect it")
 
-![](https://github.com/belmont-admin/C001-Interactive-Badge/raw/master/images/1-connect.jpg =100x)
+2. Click on the cogwheel icon and choose the 'Pair device' option
+![alt text](https://github.com/belmont-admin/C001-Interactive-Badge/raw/master/images/2-pair.png "Pair it")
 
-2. Click the `|Download|` button.
+3. Click the `|Pair device|` button.
+![alt text](https://github.com/belmont-admin/C001-Interactive-Badge/raw/master/images/![alt text](https://github.com/belmont-admin/C001-Interactive-Badge/raw/master/images/2-pair.png "Pair it")
+ "Pair it")
+
+4. In the pop up that appears click on the BBC micro:bit entry and the click the `|Connect|` button.
+![alt text](https://github.com/belmont-admin/C001-Interactive-Badge/raw/master/images/![alt text](https://github.com/belmont-admin/C001-Interactive-Badge/raw/master/images/3-pair-pop-up "Pair it")
+ "Pair it")
+
+5. A **toast** message will appear briefly to confirm you are paired
+![alt text](https://github.com/belmont-admin/C001-Interactive-Badge/raw/master/images/![alt text](https://github.com/belmont-admin/C001-Interactive-Badge/raw/master/images/4-connect.png "Pair it")
+ "Pair it")
+
+6. Click the `|Download|` button to send your code to the micro:bit
+
+
 
