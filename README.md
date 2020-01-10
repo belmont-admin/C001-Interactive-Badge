@@ -1,5 +1,7 @@
 # Name Badge
 
+## Introduction @unplugged
+
 Make yourself known with a fancy name badge powered by your @boardname@!
 
 We will use this project to learn the key steps in wrting code to run on the @boardname@. You will:
@@ -12,7 +14,7 @@ We will use this project to learn the key steps in wrting code to run on the @bo
 6. **Use it**      - check your code running on the micro:bit
 7. **Save it**     - save your code to your student drive
 
-# Code
+## Step 1: Code @fullscreen
 
 First, let's get your name to display on the screen.
 
