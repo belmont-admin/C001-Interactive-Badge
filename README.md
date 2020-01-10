@@ -1,7 +1,5 @@
 # Name Badge
 
-![Name badge project](/static/mb/projects/name-badge/header.png)
-
 Make yourself known with a fancy name badge powered by your @boardname@!
 
 We will use this project to learn the key steps in wrting code to run on the @boardname@. You will:
@@ -14,11 +12,11 @@ We will use this project to learn the key steps in wrting code to run on the @bo
 6. **Use it**      - check your code running on the micro:bit
 7. **Save it**     - save your code to your student drive
 
-## Code
+# Code
 
 First, let's get your name to display on the screen.
 
-### Button press 
+## Button press 
 
 From the ``||input:Input||`` Toolbox drawer, drag an ``||input:on button A pressed||`` block onto the Workspace.
 
@@ -28,7 +26,7 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-### Show a string
+## Show a string
 
 From the ``||basic:Basic||`` Toolbox drawer drag a ``||basic:show string||`` block into the ``||input:on button A pressed||`` block.
 
@@ -38,7 +36,7 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-### Show my name
+## Show my name
 
 In the ``||basic:show string||`` block, type your name.
 
@@ -48,7 +46,7 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-### Test the badge
+# Test the badge
 
 Go to the simulator and test your name badge by pressing button **A**.
 
@@ -58,7 +56,7 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-### Download
+# Download
 
 Download the program to your @boardname@:
 
