@@ -1,34 +1,71 @@
-# c001-interactive-badge ![Build status badge](https://github.com/belmont-admin/c001-interactive-badge/workflows/MakeCode/badge.svg)
+# Name Badge
 
+![Name badge project](/static/mb/projects/name-badge/header.png)
 
+Make yourself known with a fancy name badge powered by your @boardname@!
 
-## Use this extension
+We will use this project to learn the key steps in wrting code to run on the @boardname@. You will:
 
-This repository can be added as an **extension** in MakeCode.
+1. **Code it**     - write your code in the MakeCode editor
+2. **Test it**     - use the simulator to debug your code
+3. **Connect it**  - attach your micro:bit to the PC with a USB cable
+4. **Pair it**     - set up the communication link to the micro:bit  
+5. **Download it** - send your code to the micro:bit
+6. **Use it**      - check your code running on the micro:bit
+7. **Save it**     - save your code to your student drive
 
-* open https://makecode.microbit.org/
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for the URL of this repository and import
+## Code
 
-## Edit this extension
+First, let's get your name to display on the screen.
 
-To edit this repository in MakeCode.
+### Button press 
 
-* open https://makecode.microbit.org/
-* click on **Import** then click on **Import URL**
-* paste the repository URL and click import
+From the ``||input:Input||`` Toolbox drawer, drag an ``||input:on button A pressed||`` block onto the Workspace.
 
-## Blocks preview
+```blocks
+input.onButtonPressed(Button.A, function () {
 
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
+})
+```
 
-![A rendered view of the blocks](https://github.com/belmont-admin/c001-interactive-badge/raw/master/.makecode/blocks.png)
+### Show a string
 
-## Supported targets
+From the ``||basic:Basic||`` Toolbox drawer drag a ``||basic:show string||`` block into the ``||input:on button A pressed||`` block.
 
-* for PXT/microbit
-* for PXT/microbit
-(The metadata above is needed for package search.)
+```blocks
+input.onButtonPressed(Button.A, function () {
+    basic.showString("Hello!")
+})
+```
+
+### Show my name
+
+In the ``||basic:show string||`` block, type your name.
+
+```blocks
+input.onButtonPressed(Button.A, function () {
+    basic.showString("My Name")
+})
+```
+
+### Test the badge
+
+Go to the simulator and test your name badge by pressing button **A**.
+
+```sim
+input.onButtonPressed(Button.A, function () {
+    basic.showString("My Name")
+})
+```
+
+### Download
+
+Download the program to your @boardname@:
+
+1. Make sure your @boardname@ is plugged into the computer.
+![alt text](https://github.com/belmont-admin/C001-Interactive-Badge/raw/master/images/1-connect.jpg "Logo Title Text 1")
+
+![](https://github.com/belmont-admin/C001-Interactive-Badge/raw/master/images/1-connect.jpg =100x)
+
+2. Click the `|Download|` button.
 
