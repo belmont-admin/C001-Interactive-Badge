@@ -64,4 +64,4 @@ Now you need get your code onto the micro:bit and run it. Click the link below t
 
 [Click here for Download and Save instructions](https://sites.google.com/view/belmontcodeclub/help/microbit)
 
-Finally, you will need to click the `|Exit tutorial|` button to exit this tutorial so you can follow the Download and Save instructions.
+Finally, you will need to click the `|Finish|` button to end this tutorial so you can follow the Download and Save instructions.
