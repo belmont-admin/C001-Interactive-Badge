@@ -56,7 +56,7 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-## Step 5: Download @unplugged
+## Step 5: Download @fullscreen
 
 Congratulations on writing your first bit of code for the micro:bit. 
 
