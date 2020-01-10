@@ -64,17 +64,15 @@ Download the program to your @boardname@:
 ![alt text](https://github.com/belmont-admin/C001-Interactive-Badge/raw/master/images/1-connect.jpg "Connect it")
 
 2. Click on the cogwheel icon and choose the 'Pair device' option
-![alt text](https://github.com/belmont-admin/C001-Interactive-Badge/raw/master/images/2-pair.png "Pair it")
+![alt text](https://github.com/belmont-admin/C001-Interactive-Badge/raw/master/images/2-pair.png "Connect it")
 
 3. Click the `|Pair device|` button.
-![alt text](https://github.com/belmont-admin/C001-Interactive-Badge/raw/master/images/3-pair-pop-up.png "Pair it")
+![alt text](https://github.com/belmont-admin/C001-Interactive-Badge/raw/master/images/3-pair-pop-up.png "Connect it")
 
 4. In the pop up that appears click on the BBC micro:bit entry and the click the `|Connect|` button.
-![alt text](https://github.com/belmont-admin/C001-Interactive-Badge/raw/master/images/4-connect.png "Pair it")
- "Pair it")
+![alt text](https://github.com/belmont-admin/C001-Interactive-Badge/raw/master/images/4-connect.png "Connect it")
 
 5. A **toast** message will appear briefly to confirm you are paired
 ![alt text](https://github.com/belmont-admin/C001-Interactive-Badge/raw/master/images/5-paired.png "Pair it")
- "Pair it")
 
 6. Click the `|Download|` button to send your code to the micro:bit
