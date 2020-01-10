@@ -56,23 +56,12 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-## Step 5: Download @fullscreen
+## Step 5: Download @unplugged
 
-Download the program to your @boardname@:
+Congratulations on writing your first bit of code for the micro:bit. 
 
-1. Make sure your @boardname@ is plugged into the computer.
-![alt text](https://github.com/belmont-admin/C001-Interactive-Badge/raw/master/images/1-connect.jpg "Connect it")
+Now you need get your code onto the micro:bit and run it. Click the link below to load instructions on how to do that:
 
-2. Click on the cogwheel icon and choose the 'Pair device' option
-![alt text](https://github.com/belmont-admin/C001-Interactive-Badge/raw/master/images/2-pair.png "Connect it")
+[Click here for Download and Save instructions](https://sites.google.com/view/belmontcodeclub/help/microbit)
 
-3. Click the `|Pair device|` button.
-![alt text](https://github.com/belmont-admin/C001-Interactive-Badge/raw/master/images/3-pair-pop-up.png "Connect it")
-
-4. In the pop up that appears click on the BBC micro:bit entry and the click the `|Connect|` button.
-![alt text](https://github.com/belmont-admin/C001-Interactive-Badge/raw/master/images/4-connect.png "Connect it")
-
-5. A **toast** message will appear briefly to confirm you are paired
-![alt text](https://github.com/belmont-admin/C001-Interactive-Badge/raw/master/images/5-paired.png "Pair it")
-
-6. Click the `|Download|` button to send your code to the micro:bit
+Finally, you will need to click the `|Exit tutorial|` button to exit this tutorial so you can follow the Download and Save instructions.
