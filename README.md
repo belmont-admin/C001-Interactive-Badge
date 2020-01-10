@@ -38,7 +38,7 @@ input.onButtonPressed(Button.A, function () {
 
 ## Step 3: Show my name @fullscreen
 
-In the ``||basic:show string||`` block, type your name.
+In the ``||basic:show string||`` block, type your name
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
